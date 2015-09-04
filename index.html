@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+
+<head>
+	<meta charset="utf-8">
+	<title>Performance Matters: Optimizing Page Load - Open Assignment</title>
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/lightslider.min.css">
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Istok+Web:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/master.css" />
+
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/lightslider.js"></script>
+	<script src="js/main.js"></script>
+</head>
+<body>
+
+	<header class="site-header mb alignc">
+		<h1>The City</h1>
+		<h3>A beautiful place to be in.</h3>
+
+		<div class="scrolldown">
+			<i class="fa fa-angle-double-down"></i>
+			<a href="#">Places to see</a>
+		</div> <!-- end scrolldown -->
+	</header>
+
+	<div class="container alignc">
+		<h5 id="scrollto">Places to see</h5>
+		<h2>What you should visit and why</h2>
+		<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+
+		<ul id="lightSlider">
+			<li><img src="img/city-2.jpg" alt="City"></li>
+			<li><img src="img/city-3.jpg" alt="City"></li>
+			<li><img src="img/city-4.jpg" alt="City"></li>
+			<li><img src="img/city-5.jpg" alt="City"></li>
+		</ul>
+	
+		<div class="row">
+			<div class="column">
+				<h3>The Opera House</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end column -->
+			<div class="column">
+				<h3>The Museum of History</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p> 
+
+				<p>He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.</p>
+			</div> <!-- end column -->
+		</div> <!-- end row -->
+
+		<div class="row">
+			<div class="column">
+				<h3>The Flamingo Bar&amp;Grill</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end column -->
+			<div class="column">
+				<h3>The Sunshine Terrace</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p> 
+			</div> <!-- end column -->
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+
+	<img src="img/city-6.jpg" alt="The City">
+
+	<div class="container alignc">
+		<h5>Stuff to do</h5>
+		<h2>What you should do</h2>
+		<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+
+		<div class="row">
+			<div class="column">
+				<div class="icon" id="icon-1">
+					<i class="fa fa-coffee fa-2x"></i>
+				</div> <!-- end icon -->
+
+				<h3>Get amazing coffee</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end columns -->
+
+			<div class="column">
+				<div class="icon" id="icon-2">
+					<i class="fa fa-building fa-2x"></i>
+				</div> <!-- end icon -->
+
+				<h3>Get a city tour</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end columns -->
+		</div> <!-- end row -->
+
+		<div class="row">
+			<div class="column">
+				<div class="icon" id="icon-3">
+					<i class="fa fa-book fa-2x"></i>
+				</div> <!-- end icon -->
+
+				<h3>Visit the great city library</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end columns -->
+
+			<div class="column">
+				<div class="icon" id="icon-4">
+					<i class="fa fa-beer fa-2x"></i>
+				</div> <!-- end icon -->
+
+				<h3>Have a glass of the town's famous beer</h3>
+				<p>Grumpy wizards make toxic brew for the evil Queen and Jack. One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin.</p>
+			</div> <!-- end columns -->
+		</div> <!-- end row -->
+	</div> <!-- end container -->
+
+	<footer>
+		<div class="container alignc">
+			<em class="muted">&copy; 2015 Adi Purdila. Fun little page made for Tuts+ :)</em>
+		</div> <!-- end container -->
+	</footer>
+
+	<script type="text/javascript">
+		$( document ).ready( function() {
+			$( "#lightSlider" ).lightSlider( {
+				loop: true,
+
+			} ); 
+		} );
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,123 @@
+/* Main CSS File. */
+body {
+	line-height: 1.5;
+	font-family: "Lora", Georgia, serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+a {
+	color: #16A8F1;
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Istok Web", Arial, sans-serif;
+}
+
+h5 {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FEC22E;
+}
+
+.container {
+	width: 85%;
+	margin: 0 auto;
+}
+
+	.container p {
+		color: #444;
+		max-width: 60%;
+		margin: 1.5em auto;
+	}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.site-header {
+	background: transparent url("../img/city-1.jpg") 0 0 no-repeat;
+	padding: 5em;
+}
+
+.scrolldown {
+	margin-top: 5em;
+	background: rgba(255, 255, 255, .8);
+	display: inline-block;
+	padding: 1em;
+}
+
+	.scrolldown a {
+		display: block;
+	}
+
+.icon {
+	border: 5px solid;
+	border-radius: 50%;
+	width: 5em;
+	height: 5em;
+	display: inline-block;
+}
+
+	.icon .fa {
+		line-height: 2.5em;
+	}
+
+#icon-1 { border-color: #FF5722; }
+
+	#icon-1 .fa { color: #FF5722; }
+
+#icon-2 { border-color: #4EAE53; }
+
+	#icon-2 .fa { color: #4EAE53; }
+
+#icon-3 { border-color: #03A9F4; }
+
+	#icon-3 .fa { color: #03A9F4; }
+
+#icon-4 { border-color: #E82866; }
+
+	#icon-4 .fa { color: #E82866; }
+
+/* Grid. */
+.row {
+	overflow: hidden;
+}
+
+.column {
+	width: 45%;
+	float: left;
+	margin: 2.5em 2.5%;
+}
+
+	.column p {
+		max-width: 100%;
+	}
+
+footer {
+	border: 1px solid #eaeaea;
+	padding: 2.5em 0;
+}
+
+/* Utility classes. */
+.alignc {
+	text-align: center;
+}
+
+.mb {
+	margin-bottom: 2.5em;
+}
+
+.muted {
+	opacity: .7;
+}

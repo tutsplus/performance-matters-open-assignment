@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".scrolldown a").on("click",function(o){o.preventDefault(),$("html, body").animate({scrollTop:$("#scrollto").offset().top},1e3)})});
